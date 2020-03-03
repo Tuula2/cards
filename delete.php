@@ -1,5 +1,3 @@
-
-
 <?php
 session_start();
 if($_SESSION['username'] == 'username') {
@@ -24,6 +22,7 @@ if($_SESSION['username'] == 'username') {
  } else {
  echo "0 results";
  }
+ print("<br><br>");
  print("</html>");
  mysqli_close($conn);
 } else {
