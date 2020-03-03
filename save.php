@@ -16,9 +16,5 @@ $_POST['country'] ."');";
  mysqli_close($conn);
 
 }
-?> print("</html>");
- mysqli_close($conn);
-
-}
-?>
+?> 
 
