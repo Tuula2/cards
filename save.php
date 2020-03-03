@@ -14,15 +14,11 @@ $_POST['country'] ."');";
  print("Save completed.");
  print("</html>");
  mysqli_close($conn);
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 }
 ?> print("</html>");
  mysqli_close($conn);
-=======
->>>>>>> feature/add
-=======
->>>>>>> feature/add
+
 }
 ?>
 
