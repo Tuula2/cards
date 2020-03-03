@@ -24,8 +24,6 @@ if($_SESSION['username'] == 'username') {
  } else {
  echo "0 results";
  }
-<<<<<<< HEAD
-=======
  print("<br><br>");
  print("Insert new");
  print("<form action=\"save.php\" method=\"post\">");
@@ -51,7 +49,6 @@ if($_SESSION['username'] == 'username') {
  print("");
  print("<input type=\"submit\" name=\"submit\" value=\"Save\" >");
  print("</form>");
->>>>>>> fafa6db555826db2132fed4dd21f955f566f1d04
  print("</html>");
  mysqli_close($conn);
 } else {
