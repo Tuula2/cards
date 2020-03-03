@@ -16,15 +16,26 @@ if($_SESSION['username'] == 'username') {
  echo $row["city"] . " ";
  echo $row["state"] . " ";
  echo $row["country"] . " ";
+<<<<<<< HEAD
  echo "<a href=\"delete.php?id=" . $row["id"] . "\">DELETE</a>";
+=======
+>>>>>>> 23edb95450b21cd3611c1cc25d7434b41c378ac1
  print("<br>");
  }
  } else {
  echo "0 results";
  }
+<<<<<<< HEAD
  print("</html>");
+=======
+ print("</html>"); 
+>>>>>>> 23edb95450b21cd3611c1cc25d7434b41c378ac1
  mysqli_close($conn);
 } else {
  print("No access.");
 }
 ?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 23edb95450b21cd3611c1cc25d7434b41c378ac1
