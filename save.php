@@ -14,6 +14,8 @@ $_POST['country'] ."');";
  print("Save completed.");
  print("</html>");
  mysqli_close($conn);
+
 }
 ?>
+
 
